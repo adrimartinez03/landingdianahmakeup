@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Sacramento');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #878787;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+	background-color: #fff !important;
+}
+.header-area.sticky .navbar-light .nav-link{
+	color: #000;
+}
+.header-area.sticky .navbar-brand .d-none{
+	display: block !important;
+}
+.header-area.sticky .navbar-brand .mostrar{
+	display: none !important;
+}
+
+.carousel-inner h1{
+	font-family: 'Sacramento', cursive;
+	font-size: 80px;
+	padding-bottom: 55px;
+}
+
+#sec-about{
+	margin: 100px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+#sec-about h1{
+	font-family: sacramento;
+	font-size: 80px;
+	text-align: right;
+}
+
+#beyondbeauty{
+	margin: 65px;
+	background-image: url(../img/skinsps.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-bottom: 100px;
+	padding-top: 150px;
+}
+
+#beyondbeauty h1{
+	font-family: sacramento;
+	font-size: 80px;
+	text-align: left;
+}
+
+#services{
+	margin: 100px;
+	padding-bottom: 20px;
+	padding-top: 50px;
+}
+
+#services h1{
+	font-family: sacramento;
+	font-size: 75px;
+	text-align: center;
+}
+
+#services img{
+	margin-top: -40px;
+	height: 200px;
+	width: 200px;
+	margin-left: 75px;
+}
+
+#services h2{
+	margin-top: -50px;
+}
+
+#testimonials{
+	margin: 100px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+#testimonials h1{
+	font-family: sacramento;
+	font-size: 80px;
+	text-align: center;
+}
+
+.fa-quote-right{
+	margin-left: 150px;
+	font-size: 35px;
+	padding-bottom: 25px;
+}
+
+#testimonials h4{
+	font-size: 16px;
+	text-align: right;
+}
+
+.servbtn{
+	padding-top: 10px;
+	padding-left: 110px;
+}
+
+#contact{
+	margin: 100px;
+}
+
+#contact h1{
+	font-family: sacramento;
+	font-size: 80px;
+	text-align: center;
+}
+
+.contactbtn{
+	padding-top: 80px;
+	text-align: center;
+}
+
+#message{
+	height: 300%;
+	width: 100%;
+}
+
+#works{
+	margin: 100px;
+}
+
+footer{
+	padding-top: 15px;
+	background-color: #ddd;
+	color: #fff;
+	text-align: center;
+}
+
+.fa-phone{
+	padding-top: 3px;
+	padding-right: 6px;
+	font-size: 14px;
+}
+
+.fa-instagram{
+	padding-top: 3px;
+	padding-right: 6px;
+	font-size: 14px;
+}
+.fa-envelope{
+	padding-top: 3px;
+	padding-right: 6px;
+	font-size: 14px;
+}
+
+
+/*De 0px hasta 480px*/ 
+
+@media (max-width:480px){
+	.row article{
+		margin-top: 5px;
+	}
+}
+
+/*De 0 hasta 768px*/
+
+@media (max-width:768px){
+	header{
+		position: inherit;
+	}
+	.nav-link{
+		color: #000;
+	}
+}
+
+/*De 768px hasta 1200px*/
+	
+@media (min-width:768px) and (max-width:1200px){
+		
+}
